@@ -2,9 +2,31 @@ doctype html
 html
     head
         link(rel="stylesheet", type="text/css", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css")
-        link(rel="stylesheet", type="text/css", href="css/main.css")
+        //- link(rel="stylesheet", type="text/css", href="css/main.css")
         title Tic-Tac-Toe
     body
-        
+        .container.outerDiv
+            #board.innerDiv
+                .row
+                    #1.space.top.diagonal-right.left.col-xs-2
+                        p
+                    #2.space.top.center.col-xs-2
+                        p
+                    #3.space.top.diagonal-left.right.col-xs-2
+                        p
+                .row
+                    #4.middle.space.left.col-xs-2
+                        p
+                    #5.middle.center.diagonal-right.diagonal-left.space.col-xs-2
+                        p
+                    #6.middle.space.right.col-xs-2
+                        p
+                .row
+                    #7.bottom.space.diagonal-left.left.col-xs-2
+                        p
+                    #8.bottom.center.space.col-xs-2
+                        p
+                    #9.bottom.space.diagonal-right.right.col-xs-2
+                        p
         script(type="application/javascript", src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js")
-        script(type="application/javascript", src="js/script.js")
+        //- script(type="application/javascript", src="js/script.js")
