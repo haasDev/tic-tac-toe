@@ -1,0 +1,28 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "Tic tac toe game that allows a user to play against the computer.  Utilizes Jade for templating, sass for styling and jQuery.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haasDev/tic-tac-toe.git"
+  },
+  "author": "Tyler Haas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/haasDev/tic-tac-toe/issues"
+  },
+  "homepage": "https://github.com/haasDev/tic-tac-toe#readme",
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-uglify": "^1.5.2",
+    "path": "^0.12.7"
+  }
+}
