@@ -1,0 +1,44 @@
+$border: 2px solid #000;
+
+body, 
+html,
+.outerDiv {
+  height: 100%;
+  width: 100%;
+}
+.outerDiv {
+    display: inline-flex;
+}
+.innerDiv {
+    margin: auto auto;  
+}
+#board {
+  padding: 50px;
+  box-shadow: 0 0 15px;
+}
+.middle.center {
+	border: $border;
+}
+.middle {
+  border-top: $border;
+  border-bottom: $border;
+}
+.center {
+	border-left: $border;
+	border-right: $border;
+}
+.space {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4em;
+}
+.X::after {
+  content: 'X';
+  
+}
+.O::after {
+  content: 'O';
+}
